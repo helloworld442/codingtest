@@ -24,6 +24,8 @@ for i in range(N):
             count = 0
             dfs(i,j)
             count_list.append(count)
+
+count_list.sort()
 print(len(count_list))
 for i in range(len(count_list)):
     print(count_list[i])
